@@ -1,0 +1,261 @@
+/* les reset */
+
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+/* general */
+html,
+body{
+    font-family:'Open Sans', sans-serif; 
+}
+
+h1,
+h2,
+h3{
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+.my-10{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.separation{
+    margin: 20px auto;
+    height: 10px;
+    width: 100px;
+    background: black;
+}
+.btn{
+    display: inline-block;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 15px 25px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* btn primary */
+.btn-primary{
+    background: white ;
+    color: black;
+}
+
+.btn-primary:hover{
+    background: black;
+    color: white;
+
+}
+
+/* btn dark */
+
+.btn-dark{
+    background: black;
+    color: white;
+}
+
+.btn-dark:hover{
+    background: white;
+    color: black;
+}
+
+/* container */
+.container{
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+}
+
+/* header */
+.header{
+    background: black;
+    overflow: auto;
+    line-height: 1.7em;
+}
+
+.header nav h1{
+    float:left;
+    padding: 20px;
+    margin-bottom: 0; 
+}
+
+.header nav h1 a{
+    color: #FFC300;
+    border: 1px solid #FFC300;
+}
+.header nav ul {
+    float: right;
+    list-style: none;
+}
+
+.header nav ul li{
+    float: left;
+}
+
+.header nav ul li a{
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.header ul li:hover{
+    background: #444;
+}
+
+.active{
+    background: #444;
+}
+
+/* section vp */
+.vp{
+    min-height: 700px;
+    background: url("../images/cafe1.jpg") center center;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.vp-content{
+    max-width:500px;
+    display: block;
+    padding: 150px 20px 20px;
+    color: white;
+    margin: auto;
+}
+
+.vp-content h1 {
+    font-size: 3rem;
+}
+
+.vp-content p{
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    line-height: 1.9em;
+}
+
+/* features */
+
+.features{
+    padding:100px 20px 100px 20px;
+    text-align: center;
+    overflow: auto;
+
+}
+
+
+.feature{
+    float: left;
+    width: 50%;
+}
+
+/* Image serveuse */
+
+.image-serveuse{
+    background: url("../images/cafe3.jpg") center center;
+    background-size:cover;
+    min-height: 700px;
+}
+
+/* section reservation */
+.reservation{
+    padding: 100px 20px 100px 20px;
+    text-align: center;
+}
+
+
+
+/* footer */
+footer{
+    padding: 20px;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer p{
+    margin-bottom: 0px;
+}
+
+/* partie nous trouver*/
+
+.where{
+padding:180px 0 0 100px ;
+min-height: 100vh;
+overflow: auto;
+}
+
+.where-text{
+    float: left;
+    width: 45%;
+}
+
+.where-text p{
+    padding-top: 10px;
+}
+
+.where-image{
+    float: right;;
+    width: 50%;
+    border-radius: 10%;
+}
+
+/* partie contact */
+
+.chip{
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 30px;
+    color: white;
+}
+
+.chip-puple{
+    background: palevioletred;
+}
+ .chip-marron{
+     background: #9E6052;;
+ }
+
+.contact{
+    padding: 180px 0px 100px 0px;
+    min-height: 100vh;
+}
+
+.form-contact-container {
+    max-width: 600px;
+    padding: 20px;
+    margin: auto;
+}
+
+.form-contact-container form label {
+    display: block;
+    font-weight: 700px;
+}
+
+.form-contact-container form input, textarea{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.form-contact-container textarea{
+    min-height: 80px;
+}
